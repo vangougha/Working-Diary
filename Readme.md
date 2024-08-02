@@ -19,7 +19,9 @@ I started studying at night and I write these at that time. I set up a feedback 
 ## Day 4 
 I spent 2 hours studying data-driven programming with SQLite3 and gained more insights into migrations. I created a database for "Products" using SQLite and PowerShell. Here are some notes I took:
 
-I updated an existing migration: ```dotnet ef migrations add ProductSeedData. ```
+I updated an existing migration: ```dotnet ef migrations add ProductSeedData. ```    
+
+
 I queried the database to retrieve product data:
 
 ```
