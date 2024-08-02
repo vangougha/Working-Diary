@@ -19,3 +19,32 @@ I started studying at night and I write these at that time. I set up a feedback 
 ## Day 4 
 I studied Data-driven programming using SQLite3 2 hours straight and I learned more than I know about migrations. I created a Database using SQLite and PowerShell about "Product"'s and take some notes 
 The notes I took : 
+1 - 
+        I already have a migration, I'll update it.
+        dotnet ef migrations add ProductSeedData
+        
+2 - 
+        It returned all datas
+         sqlite> select * from Products ;
+┌───────────┬─────────────┬─────────┐                
+│ ProductId │ ProductName │  Price  │
+├───────────┼─────────────┼─────────┤
+│ 1         │ Computer    │ 17000.0 │
+│ 2         │ Ipad        │ 17000.0 │
+│ 3         │ Table       │ 1000.0  │
+│ 4         │ Phone       │ 17000.0 │
+└───────────┴─────────────┴─────────┘
+
+         */
+3 - 
+         It say's to app "Add some service support, service = .... for example if I was working with API's i could say "AddController" or something 
+         //I did that because i wanted to add view and controller at the same time.
+builder.Services.AddControllersWithViews();
+
+// My ConnectionString is ready
+builder.Services.AddDbContext<RepositoryContext>(options =>
+{
+    options.UseSqlite(builder.Configuration.GetConnectionString("sqlconnection"));
+});
+
+// When you do that service service registration you can use it with middleware
