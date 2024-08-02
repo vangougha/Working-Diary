@@ -35,7 +35,6 @@ The notes I took :
 │ 4         │ Phone       │ 17000.0 │
 └───────────┴─────────────┴─────────┘
 
-         */
 3 - 
          It say's to app "Add some service support, service = .... for example if I was working with API's i could say "AddController" or something 
          //I did that because i wanted to add view and controller at the same time.
