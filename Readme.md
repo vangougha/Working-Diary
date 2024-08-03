@@ -16,11 +16,11 @@ When I complete course I'll code a To-Do App with a real database for myself.
 
 I started studying at night and I write these at that time. I set up a feedback mechanism, I learned the repository, taghelper and prepared the "Applications" page, which will return the data entered by the user in a way that will be available to other users. Also I added Feedback system, so when you apply you get a reply that says "You're accepted" and I also learned about Model Validation.
 
-## Day 4 
+## Day 4
+
 I spent 2 hours studying data-driven programming with SQLite3 and gained more insights into migrations. I created a database for "Products" using SQLite and PowerShell. Here are some notes I took:
 
-I updated an existing migration: ```dotnet ef migrations add ProductSeedData. ```    
-
+I updated an existing migration: ``dotnet ef migrations add ProductSeedData. ``
 
 I queried the database to retrieve product data:
 
@@ -32,6 +32,7 @@ ProductId │ ProductName │ Price
 3         │ Table       │ 1000.0
 4         │ Phone       │ 17000.0
 ```
+
 I added service support using builder.Services.AddControllersWithViews(); and configured the connection string for SQLite:
 
 ```
@@ -40,6 +41,18 @@ builder.Services.AddDbContext(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("sqlconnection")); 
 });
 ```
+
 This service registration can be used with middleware.
-## Day 5 
-I spent 2 hours working on MovieApp and SpotifyApp for ASP.Net Core and MovieApp has some bugs. I'll spend my whole day trying to fix it, if I can't I'll ask someone else to help me probably. And I won't study today. I'll double my work tomorrow. 
+
+## Day 5
+
+I spent 2 hours working on MovieApp and SpotifyApp for ASP.Net Core and MovieApp has some bugs. I'll spend my whole day trying to fix it, if I can't I'll ask someone else to help me probably. And I won't study today. I'll double my work tomorrow.
+
+## Day 6
+
+I started working early today. Yesterday, I finished my Spotify application and now I'm almost done with my movie app. I think I need to add more features to the app, such as:
+
+* Setting a minimum and maximum value for MovieDegree. Users should be able to rate movies on a scale from 1 to 10.
+* Currently, the program only holds data while it is running. I could transfer this data to a database or save it to a text file. Actually, saving to a text file might be a good idea, as I could explore file management techniques as well.
+
+I think I liked ASP, it's cool!
