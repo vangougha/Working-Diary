@@ -41,3 +41,5 @@ builder.Services.AddDbContext(options =>
 });
 ```
 This service registration can be used with middleware.
+## Day 5 
+I spent 2 hours working on MovieApp and SpotifyApp for ASP.Net Core and MovieApp has some bugs. I'll spend my whole day trying to fix it, if I can't I'll ask someone else to help me probably. And I won't study today. I'll double my work tomorrow. 
