@@ -56,3 +56,9 @@ I started working early today. Yesterday, I finished my Spotify application and 
 * Currently, the program only holds data while it is running. I could transfer this data to a database or save it to a text file. Actually, saving to a text file might be a good idea, as I could explore file management techniques as well.
 
 I think I liked ASP, it's cool!
+
+
+## Day 7 
+
+Today I'll start to studying LINQ and SQL to learn more about database. Also I decided to make an ToDo application for mobile and started to taking notes about the features I want to program. I'll study mathematic's too.
+
