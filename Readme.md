@@ -59,6 +59,6 @@ I think I liked ASP, it's cool!
 
 
 ## Day 7 
-
-Today I'll start to studying LINQ and SQL to learn more about database. Also I decided to make an ToDo application for mobile and started to taking notes about the features I want to program. I'll study mathematic's too.
-
+I have updated UI of SpotifyASP repository and SpotifyApp is done for now. <br>
+I want to learn how does processors work and coding Assembly. But before that I really need to study on databases and algorithm's. 
+I'm trying my best.
